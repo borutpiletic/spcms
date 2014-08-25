@@ -1,0 +1,33 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+h1 {font-size: 14pt; font-weight: bold;}
+h1 {font-size: 12pt; font-weight: bold;}
+
+
+.bgcolor-black {background: #1A1A1A;}
+
+.color-blue {color:#3DA8E3}
+.color-yellow {color:#FFD800}
+.color-green {color:#7FBA00}
+.color-red {color:#F25022}
+
+
+/*** HEADER SECTION ***/
+.header.container-fluid {min-height: 80px; border-bottom: 10px solid #3DA8E3;}
+.header.container-fluid .logo {color:#fff; min-height: 30px; padding: 20px 0px 10px 20px; font-size: 12pt;}
+.header.container-fluid .header-menu a {color:#FFD800}
+.header.container-fluid .header-menu a:hover {color:#fff; text-decoration: none;}
+
+/*** LEFT SIDEBAR ***/
+ul#module-menu {  padding: 0px !important; margin-top: 20px; }
+ul#module-menu li {   list-style-type: none; list-style-position: inside; margin: 0px !important;  }
+ul#module-menu li a {color:#000; text-decoration: none; display: block; padding: 5px 0px 5px 10px;}
+ul.level-0#module-menu li a {font-weight: bold;}
+ul.level-1 li a {font-weight: normal !important; font-size: 13px;}
+ul.level-1 li a:hover {background: #3DA8E3; color:#fff !important;  }
+
+/*** FOOTER SECTION ***/
+footer {min-height: 50px;}
